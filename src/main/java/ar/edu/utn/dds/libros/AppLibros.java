@@ -25,7 +25,7 @@ public class AppLibros {
 
         controller = new LibrosController(repo);
 
-        app.get(  "/home",  (Context ctx) -> ctx.result("hola!"));
+        app.get(  "/home",  (Context ctx) -> ctx.result("Probando etapa 3 !!!!"));
 
         app.get(  "/libros",  controller::list);
 
