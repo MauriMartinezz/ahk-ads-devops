@@ -28,4 +28,4 @@ workflows:
       - say-hello
   maven_test:
     jobs:
-      - maven/testb
+      - maven/test
